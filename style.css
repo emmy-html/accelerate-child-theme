@@ -1,0 +1,250 @@
+/*
+Theme Name:   Accelerate Theme Child
+Theme URI:    http://localhost:8888/accelerate/accelerate-theme-child/
+Description:  Accelerate Child Theme - Accelerate
+Author:   	Emery
+Author URI:   http://localhost:8888/accelerate
+Template: 	accelerate-theme
+Version:      2.0.0
+Tags:     	light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+Text Domain:  accelerate-theme-child
+*/
+
+/* HOMEPAGE STYLES */
+.home-page {
+    background: url("img/taxi-photo.jpg") no-repeat scroll right center / cover rgba(0, 0, 0, 0);
+}
+#masthead {
+    background: none repeat scroll 0 0 #45ac9d;
+  }
+.button {
+    background: none repeat scroll 0 0 #45ac9d;
+}
+/* BLOG STYLES */
+.blog-post {
+    width: 50%;
+    float: left;
+    margin-bottom: 2em;
+}
+.blog-post h4 {
+    font: 700 1em/1.75 'Montserrat', 'Open Sans', Arial, sans-serif;
+    color: #a6a6a6;
+    text-transform: uppercase;
+    margin: 2em 0 .5em;
+}
+.blog-post h3 {
+    font-size: 1.5em;
+}
+.read-more-link {
+    font-family: 'Montserrat', 'Open Sans', Arial, sans-serif;
+    font-weight: 700;
+    color: #45ac9d;
+    text-transform: uppercase;
+}
+/* CASE STUDY STYLES */
+.case-study {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-top: 80px;
+}
+.case-study h2 {
+    display: block;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    line-height: 6px;
+}
+.case-study h4 {
+    color: #ababab;
+    display: block;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1px;
+}
+.case-study h4 span {
+    color: #2b2b2b;
+}
+.case-study-sidebar {
+    width: 35%;
+}
+.case-study-description {
+    margin-top: 40px;
+}
+.case-study-images {
+    width: 55%;
+}
+.case-study-images img {
+    width: 100%;
+    padding-bottom: 40px;
+}
+/* CONTACT US */
+.page-id-47361 #main {
+  margin: 0 auto;
+  width: 45%;
+}
+.main-content h2 {
+  font-size: 1.75rem;
+}
+#nf-field-1-container {
+    display: inline-block;
+    margin-top: 45px;
+    width: 45%;
+}
+#nf-field-2-container {
+    float: right;
+    margin-top: 45px;
+    width: 50%;
+}
+#nf-field-1-wrap label {
+    font-weight: 600;
+}
+#nf-field-2-wrap label {
+    font-weight: 600;
+}
+#nf-field-3-wrap label {
+    font-weight: 600;
+}
+#nf-field-4-wrap input[type="button"] {
+    background: #45ac9d;
+    float: right;
+    width: 33%;
+}
+#nf-field-4-wrap input[type="button"]:hover {
+    color: white;
+    font-weight: 600;
+}
+/* ABOUT PAGE */
+.about-page {
+    background: url("img/taxi-photo.jpg") no-repeat scroll bottom center / cover rgba(0, 0, 0, 0);
+    height: auto;
+    margin: 0 0 5em;
+    padding: 4em 0;
+  	text-align: center;
+}
+.about-page.hero-content h1 {
+  	color: #fff;
+  	font-weight:bold;
+  	font-size: 2em;
+  	line-height: 1.5;
+  	margin: 0 2%;
+}
+.about-page.hero-content h3 {
+    color: #fff;
+    font-family: 'Open Sans';
+    font-size: 1.4em;
+    font-weight: normal;
+    margin: 0 auto;
+    width: 40%;
+}
+.about-content {
+    color: red;
+}
+/* OUR SERVICES */
+.features-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.features-image {
+  width: 20%;
+}
+.features-description {
+  width: 67%;
+}
+.features-intro {
+  margin: 0 auto;
+  padding-bottom: 50px;
+  text-align: center;
+  width: 55%;
+}
+.features-intro h4 {
+  text-transform: uppercase;
+}
+.features-description h3 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+.features-container aside {
+  padding-bottom: 100px;
+}
+.features-container:nth-child(3) {
+  flex-direction: row-reverse;
+}
+.features-container:nth-child(5) {
+  flex-direction: row-reverse;
+}
+/* 404 PAGE */
+.error-content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 auto;
+  width: 80%;
+}
+.error-image {
+  width: 25%;
+}
+.error-text {
+  margin-bottom: 40px;
+  width: 60%;
+}
+.error-text h1 {
+  color: #45ac9d;
+  font-family: 'Londrina Solid', cursive;
+  font-size: 2.75rem;
+  line-height: 2rem;
+}
+.error-text a {
+  color: #45ac9d;
+  font-weight: 800;
+}
+/* TWITTER WIDGET */
+.twitter-widget {
+  float: right;
+  padding-left: 40px;
+  width: 45%;
+}
+h3.widget-title {
+  font: 700 1em/1.75 'Montserrat', 'Open Sans', Arial, sans-serif;
+  color: #a6a6a6;
+  text-transform: uppercase;
+  margin: 2em 0 .5em;
+}
+#ctf .ctf-item {
+  padding: 0;
+}
+#ctf .ctf-author-name {
+  font-size: 25px;
+  margin: 0;
+  padding-bottom: 25px;
+}
+#ctf .ctf-tweet-content {
+  padding-top: 50px;
+}
+#ctf .ctf-author-box {
+  padding-top: 40px;
+}
+.follow-us-link {
+    color: #45ac9d;
+    font-family: 'Montserrat', 'Open Sans', Arial, sans-serif;
+    font-weight: 700;
+    padding-top: 25px;
+    text-transform: uppercase;
+}
+/* MAILCHIMP WIDGET */
+#mc4wp-form-1 input[type="email"] {
+    width: 100%;
+}
+#mc4wp-form-1 input[type="submit"] {
+    background: #45ac9d;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    width: 100%;
+}
+#mc4wp-form-1 input[type="submit"]:hover {
+    background: #3b3b3b;
+    transition: 1s background;
+}
